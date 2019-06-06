@@ -8,6 +8,17 @@ body {
   div {
     position:center
   }
+
+  .pupu {
+      padding: 3px 4px 5px 6px
+      margin: 20px 50px
+  }
+
+  #pupubutt{
+    padding: 3px 4px 5px 6px
+    margin: 20px 50px
+  }
+
   p {
     color: whitesmoke;
   }
