@@ -6,14 +6,16 @@ body {
     color: black;
   }
 
+  /* This is an id */
   .pupu {
       padding: 3px 4px 5px 6px;
       margin: 20px 50px;
   }
 
+  /* This is class */
   #pupubutt{
     padding: 3px 4px 5px 6px;
-    margin: 20px 50px;
+    margin: 50px 50px;
   }
 
   p {
