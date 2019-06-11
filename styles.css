@@ -25,7 +25,7 @@ body {
     font-size: 200%;
   }
 
-  .btn {
+  #btn {
     font-size: 300%;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
