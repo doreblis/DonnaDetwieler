@@ -48,3 +48,12 @@ body {
       text-decoration: none;
       display: inline-block;
   }
+
+  i.fas {
+    border: 1px solid red;
+  }
+
+  .fa-grin-tears {
+      color: lavenderblush
+  }
+ 
