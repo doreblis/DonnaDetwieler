@@ -1,14 +1,12 @@
-<script type="text/javascript">
-  const age = prompt('What is your age?');
-
-  alert('Happy ' + age + 'th ' + 'Birthday!' );
-</script>
 
 //this is a variable assigned to an element
 
-let elementVariable = document.getElementById(BlogImg);
-  console.log("js is fun", elementVariable);
+let imageElement = document.getElementById(BlogImg);
 
+//this function named "alert function" which executes an alert
+let alertFunction = function() {
+  alert('Hello reader!')
+};
 
-
-elementVariable.addEventListener("click"), consoleFun);
+//this is assigning an event listener to your element in order to run a function
+imageElement.addEventListener("click", alertFunction);
