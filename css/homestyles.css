@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+  }
+
+  .greet {
+    margin-bottom: 0.25em;
+    color: #FFFFFF;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.2em;
+    padding-top: 0.1em;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: none ;
+    color: rgb(252, 226, 255);
+    text-shadow: 3px 3px 0px rgb(49, 26, 71);
+    letter-spacing: -0.03em;
+  }
+
+  .pupu {
+        padding: 17em 0;
+        background-image: url('https://image.freepik.com/free-photo/korean-hot-spicy-chicken-flavor-ramen-instant-noodles-stir-fried-noodle_44537-722.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background
+        text-align: center;
+        height: 100vh;
+        min-height: 900px;
+        opacity: 0.8;
+        filter: alpha(opacity=50); 
+    }
+  
+
+  #foot {
+    color: darkslategrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+  }
+
+
+  /* nav styles */
+  a:link, a:visited, a:hover, a:active {
+      background-color: bisque;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 50%;
+  }
+
+  i.fas {
+    border: 1px solid red;
+  }
+
+  .fa-grin-tears {
+      color: brown
+  }
+ 
