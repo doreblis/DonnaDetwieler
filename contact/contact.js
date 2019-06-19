@@ -1,5 +1,3 @@
-<script type="text/javascript">
-  const name = prompt('What is your adress?');
-
-  alert('Sending gift to  ' + name + '!' );
-</script>
+const name = prompt("Hi there! What's your name?");
+const output = document.querySelector("#greeting");
+output.textContent = "Thanks for visiting, " + name + ".";
