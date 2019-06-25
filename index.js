@@ -1,31 +1,15 @@
-//examples of strings
-let seagull = "bird at sea";
-let seal = "ocean cat";
-let otter = "ocean cutie";
-let tiger = "big cat";
-let wolf = "hungry dog";
+import Navigation from "./components/Navigation.js";
+import Blog from "./components/Blog.js";
+import Project from "./components/Project.js";
+import Contact from "./components/Contact.js";
 
-console.log(seagull, seal, otter, tiger, wolf);
+document.querySelector("#nav").innerHTML = `
+${Navigation}`;
 
-//array of animals
-myArray = [];
+document.querySelector("#root").innerHTML = `
 
-//concatenation of string and variable
-let animalTalk = 'I went to the Zoo and saw a ' + seagull ;
-console.log(animalTalk);
-
-//creating an array of variables
-let myAnimalArray = [seagull, seal, otter, tiger, wolf];
-console.log(myAnimalArray);
-
-//array pop - removes from eng
-myAnimalArray.pop();
-console.log("pop", myAnimalArray);
-
-myAnimalArray.pop(seagull);
-console.log("pop tiger", myAnimalArray);
-
-//array push - adds to end of array
-myAnimalArray.push(wolf);
-console.log("push", myAnimalArray);
+${Blog}
+${Contact}
+${Project}
+`;
 

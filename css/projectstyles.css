@@ -32,17 +32,12 @@ body {
   
   .wrapper {
           display: grid;
-      grid-gap: 10px;
+          grid-gap: 10px;
           grid-template-columns: 500px 500px 500px;
-          grid-template-areas:
-      "header  header  header"
-          "sidebar content content"
-          "footer  footer  footer";
+          grid-template-areas:"sidebar content content";
           color: #444;
           justify-content: center;
-        
       }
-  
   
   .box {
     background-color: #444;
@@ -57,27 +52,5 @@ body {
     background-color: lightblue;
   }
   
-  .topleft {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .topright {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
-  .bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .bottomright {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
+
  

@@ -1,5 +1,9 @@
+/* INDEX STYLES */
+
 body {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #faf9f5;
   }
 
   .greet {
@@ -9,7 +13,7 @@ body {
     font-size: 2em;
 }
 
-  h1 {
+.name  {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0.2em;
     padding-top: 0.1em;
@@ -28,7 +32,6 @@ body {
         background-image: url('https://image.freepik.com/free-photo/korean-hot-spicy-chicken-flavor-ramen-instant-noodles-stir-fried-noodle_44537-722.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background
         text-align: center;
         height: 100vh;
         min-height: 900px;
@@ -62,4 +65,162 @@ body {
   .fa-grin-tears {
       color: brown
   }
+ 
+/* BLOG STYLES */
+
+  header{
+    text-align: center;
+  }
+  
+  
+  img {
+  max-width:100%;
+  height: auto;
+  }
+  
+  h1 {
+  font-weight: 200;  
+  text-align: center;
+  }
+  
+  p {
+      font-size: 17px;
+      line-height: 28px;  
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container  {
+  max-width:1500px;
+  margin: auto;
+  }
+  
+  .main-container {
+    display:grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    }
+  
+  .main {
+  padding-top: 40px;  
+  padding-bottom: 40px;
+  }
+    .blog-item {
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius:3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    }
+      .blog-item-image {
+      height: 220px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      border-bottom:3px;
+      overflow:hidden;
+      }
+      .blog-item-content {
+      padding: 15px;
+      text-align: center;
+      }
+        h2 {
+        margin-left: -15px;
+        margin-right: -15px;
+        color: rebeccapurple;
+        }
+  
+  
+  .blog_post_image_grid {
+  display:grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:5px;
+  }
+    img {
+    padding: 5px;
+    background-color: #eee;
+    border:1px solid #ddd;
+    }
+  
+    /*Button Styling*/
+    
+  .bg{
+    background-color: bisque;
+    text-align: center;
+    }
+  
+  .container-button{
+  display: inline-block;
+    }
+
+
+  button{
+  background-color: #22232c;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  font-size: 180%;
+  
+  }
+  button:hover{
+  box-shadow: 20px 20px 20px 20px rgba(255, 58, 58, 0.3);
+  }
+  
+  .blog-post {
+    border: 1px solid black;
+    margin: 30px 50px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+
+  /* PROJECT STYLES */
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    position: relative;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  .wrapper {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 500px 500px 500px;
+          grid-template-areas:"sidebar content content";
+          color: #444;
+          justify-content: center;
+      }
+  
+  .box {
+    background-color: #444;
+    color: black;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 150%;
+  }
+  
+  .sidebar,
+  .content {
+    background-color: lightblue;
+  }
+  
+
  
