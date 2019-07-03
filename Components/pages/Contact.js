@@ -1,6 +1,4 @@
-export default function Contact(state)
-{ 
-  return ` 
+export default` 
 
 <div>
 <input type="radio" name="aubject" value="personal" id="personal"/>
@@ -40,4 +38,3 @@ export default function Contact(state)
 </form>
 
 `;
-}

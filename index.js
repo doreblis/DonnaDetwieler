@@ -1,35 +1,23 @@
 import Navigation from "./components/Navigation.js";
-import Blog from "./components/Blog.js";
-import Project from "./components/Project.js";
-import Contact from "./components/Contact.js";
+import Header from "./components/Header.js";
+import Content from "./components/Content.js";
+import Footer from "./components/Footer.js";
+
+//import * as pages from "./components/pages";
 
 
-const home ={
-    title: "Welcome to my page!"
-};
 const root = document.querySelector("#root");
 
-function render(state) {
+function render() {
     root.innerHTML = `
-      ${Navigation(state)}
-      ${Blog(state)}
-      ${Contact(state)}
-      ${Project(state)}
+      ${Navigation}
+      ${Header}
+      ${Content}
+      ${Footer}
     `;
   }
 
-  render(home);
-
-
-//document.querySelector("#nav").innerHTML = `
-//${Navigation}`;
-
-//document.querySelector("#root").innerHTML = `
-
-//${Blog}
-//${Contact}
-//${Project}
-//`;
+  render();
 
 
 
