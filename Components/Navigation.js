@@ -1,4 +1,7 @@
-export default `
+export default function Navigation(state) 
+{ 
+    return ` 
+
 <nav id="nav">
     <a href="../index.html">H O M E</a>   ||  
     <a href="../blog/blog.html">B L O G</a>   ||  
@@ -6,4 +9,4 @@ export default `
     <a href="../projects/project.html">P R O J E C T</a>
 </nav>
 `;
-
+}

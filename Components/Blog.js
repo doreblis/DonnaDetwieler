@@ -1,4 +1,6 @@
-export default `
+export default function Blog(state) 
+{ 
+  return ` 
 
 <header>
 
@@ -90,3 +92,5 @@ export default `
   </div>
     
 `;
+
+}

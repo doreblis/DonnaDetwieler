@@ -1,4 +1,6 @@
-export default `
+export default function Contact(state)
+{ 
+  return ` 
 
 <div>
 <input type="radio" name="aubject" value="personal" id="personal"/>
@@ -38,3 +40,4 @@ export default `
 </form>
 
 `;
+}
