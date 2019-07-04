@@ -3,37 +3,23 @@ import Header from "./components/Header.js";
 import Content from "./components/Content.js";
 import Footer from "./components/Footer.js";
 
-//import * as pages from "./components/pages";
+import * as states from "./components/pages";
 
 
 const root = document.querySelector("#root");
 
-let stateX = {
-  Header : {
-    title : 'Header title'
-  },
-  Content : {
-    title : 'Content title'
-  },
-  Footer : {
-    title : 'Footer title'
-  },
-  Navigation : {
-    title : 'Navigation title'
-  }
-};
 
 function render(stateY) {
   console.log("This is my state:", stateY)
     root.innerHTML = `
-      ${Navigation(stateY.Navigation)}
-      ${Header(stateY.Header)}
-      ${Content(stateY.Content)}
-      ${Footer(stateY.Footer)}
+      ${Navigation(stateY)}
+      ${Header(stateY)}
+      ${Content(stateY)}
+      ${Footer(stateY)}
     `;
   }
 
-  render(stateX);
+  render(states);
 
 
 //look for click events on nav bar
