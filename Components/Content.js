@@ -1,5 +1,5 @@
-export default`
+export default (stateB) => `
     <main>
-    <p> MAIN CONTENT </p>
+    <p> ${stateB.title} </p>
     </main>
 `;
