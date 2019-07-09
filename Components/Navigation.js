@@ -1,12 +1,13 @@
-export default function Navigation(state) 
-{ 
-    return ` 
+export default function Navigation(){ return `
 
 <nav id="nav">
-    <a href="../index.html">H O M E</a>   ||  
-    <a href="../blog/blog.html">B L O G</a>   ||  
-    <a href="../contact/contact.html">C O N T A C T</a>   ||  
-    <a href="../projects/project.html">P R O J E C T</a>
+<ul>
+<li><a href="../index.html">Home</a></li>   ||  
+<li><a href="../index.html">Blog</a></li>   ||  
+<li><a href="../index.html">Contact</a></li>   ||  
+<li><a href="../index.html">Portfolio</a></li>
+</ul>
+
 </nav>
 `;
 }
