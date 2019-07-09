@@ -1,4 +1,11 @@
-export default` 
+export default function Blog(state){ return `
+
+<main>
+<p> ${state.title} </p>
+<div>
+
+</div>
+</main>
 
 <header>
 
@@ -90,4 +97,4 @@ export default`
   </div>
     
 `;
-
+}

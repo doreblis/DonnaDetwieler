@@ -1,6 +1,7 @@
-export default (stateC) => `
-    <foorter>
-    <p> ${stateC.title}</p>
+export default function Footer(){ return `
+    <footer>
+    <p> Hello </p>
     </footer>
 
 `;
+}

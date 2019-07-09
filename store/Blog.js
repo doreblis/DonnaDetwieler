@@ -1,3 +1,4 @@
 export default {
-    title: 'blog store title'
+    title: 'My Blog Title',
+    pageContent: 'Blog'
 };

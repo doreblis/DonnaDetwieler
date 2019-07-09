@@ -1,4 +1,12 @@
-export default`
+export default function Portfolio(state){ return `
+
+<main>
+<p> ${state.title} </p>
+<div>
+
+</div>
+</main>
+
 <div class="wrapper">
 <div class="box sidebar">
 <img id="mediator" src="https://pics.me.me/thumb_inar-mediator-personality-infp-a-t-so-i-did-the-16-16513817.png"/>
@@ -21,3 +29,4 @@ export default`
 
 </div>
 `;
+}

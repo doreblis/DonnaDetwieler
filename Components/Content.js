@@ -1,10 +1,13 @@
 import * as pages from './pages'
 
-export default (stateB) => `
+export default function Content(state) {
+    return `
+
     <main>
-    <p> ${stateB.title} </p>
+    <p> ${pages[state.pageContent](state)} </p>
     <div>
 
     </div>
     </main>
 `;
+}

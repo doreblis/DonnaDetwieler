@@ -1,3 +1,4 @@
 export default {
-    title: 'home store title'
+    title: 'home store title',
+    pageContent: 'Home'
 };

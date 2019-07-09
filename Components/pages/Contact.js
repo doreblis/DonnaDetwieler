@@ -1,4 +1,11 @@
-export default` 
+export default function Content(state){ return `
+
+<main>
+<p> ${state.title} </p>
+<div>
+
+</div>
+</main>
 
 <div>
 <input type="radio" name="aubject" value="personal" id="personal"/>
@@ -38,3 +45,4 @@ export default`
 </form>
 
 `;
+}

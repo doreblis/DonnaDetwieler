@@ -1,5 +1,7 @@
-export default (stateD) => `
+export default function Header(state) {
+    return `
     <header>
-        <h4> ${stateD.title} </h4>
+        <h4> ${state.title} </h4>
     </header>
 `;
+}
