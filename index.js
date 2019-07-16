@@ -3,6 +3,7 @@ import Header from "./components/Header.js";
 import Content from "./components/Content.js";
 import Footer from "./components/Footer.js";
 import * as states from "./store";
+import axios from 'axios';
 
 import Navigo from "navigo";
 import { capitalize } from 'lodash';
@@ -31,3 +32,18 @@ function render(state) {
 
   router.updatePageLinks() ;
 }
+
+//retrieving data from API and inserting to your HTML thru vanilla js
+
+let axiosDiv = document.getElementById("axiosPlay");
+
+axios
+  .get("https://jsonplaceholder.typicode.com/posts")
+  .then(
+    response => {
+      for (let x = 0;x < response.data.length; x++) {
+    axiosDiv.innerHTML += response.data[x].title;
+  }
+  return axiosDiv;
+}
+);
