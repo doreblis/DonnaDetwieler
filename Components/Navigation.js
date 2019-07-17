@@ -1,11 +1,36 @@
-export default function Navigation(){ return `
+import { lowerCase } from 'lodash';
+
+function buildLinks(linkArray) { 
+    let link = "";
+    let links = "";
+    let x = 0;
+
+    linkArray.forEach(link => {
+        if (linkArray[x] !== "Home")
+        {
+            link = linkArray[x];
+          }
+      
+      
+          links += `
+                  <li>
+                      <a href='/${lowerCase(link)}' data-navigo>
+                          ${linkArray[x]}
+                      </a>
+                  </li>
+              `;
+      
+          x++;
+        });
+      
+        return links;
+      }
+
+export default function Navigation(state){ return `
 
 <nav id="nav">
 <ul>
-<li><a href="../index.html">Home</a></li>   ||  
-<li><a href="../index.html">Blog</a></li>   ||  
-<li><a href="../index.html">Contact</a></li>   ||  
-<li><a href="../index.html">Portfolio</a></li>
+    ${buildLinks(state.links)}
 </ul>
 
 </nav>
