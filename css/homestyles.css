@@ -7,43 +7,62 @@ body {
   }
 
   .greet {
+    margin-top: 0.1em;
     margin-bottom: 0.25em;
-    color: #FFFFFF;
-    font-family: "Gentium Book Basic", Georgia, serif;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
 
+
 .name  {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0.2em;
-    padding-top: 0.1em;
-    font-weight: bold;
-    font-size: 4em;
-    letter-spacing: 0.1em;
+  font-family: 'Permanent Marker', cursive;
+    margin-top: 0em;
+    padding-top: 0em;
+    font-size: 5em;
+  background: -webkit-linear-gradient(rgb(243, 153, 255), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    letter-spacing: 0em;
     text-transform: uppercase;
     border-bottom: none ;
-    color: rgb(252, 226, 255);
-    text-shadow: 3px 3px 0px rgb(49, 26, 71);
-    letter-spacing: -0.03em;
+
   }
 
   .pupu {
-        padding: 17em 0;
-        background-image: url('https://image.freepik.com/free-photo/korean-hot-spicy-chicken-flavor-ramen-instant-noodles-stir-fried-noodle_44537-722.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        padding: 10em 0;
+        position: relative;
+        background-image: linear-gradient(180deg,#4ac1ff,#795bb0);
         text-align: center;
-        height: 100vh;
-        min-height: 900px;
-        opacity: 0.8;
-        filter: alpha(opacity=50); 
+        height: 330px;
     }
   
+  
+#linkedin{
+  background-color: #1D87BE;
+}
+#linkedin:hover{
+  background-color: #136F9E;
+}
+
+#google-plus{
+	background-color: #B30000;
+}
+#google-plus:hover{
+	background-color: #990000;
+}
+
+#github{
+	background-color: #0F4F8A;
+}
+#github:hover{
+	background-color: #0B3A66;
+}
 
   #foot {
     color: darkslategrey;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
   }
 
 
@@ -59,11 +78,11 @@ body {
   }
 
   i.fas {
-    border: 1px solid red;
+    border: 1px solid black;
   }
 
   .fa-grin-tears {
-      color: brown
+      color: red
   }
  
 /* BLOG STYLES */

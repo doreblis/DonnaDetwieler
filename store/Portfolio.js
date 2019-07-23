@@ -1,5 +1,5 @@
 export default {
-    title: 'portfolio store title',
+    title: 'My Two Personalities',
     pageContent: 'Portfolio',
     links: ["Home", "Contact", "Blog"]
 };
