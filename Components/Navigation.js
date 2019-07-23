@@ -13,11 +13,11 @@ function buildLinks(linkArray) {
       
       
           links += `
-                  <li>
+                  <p>
                       <a href='/${lowerCase(link)}' data-navigo>
                           ${linkArray[x]}
                       </a>
-                  </li>
+                  </p>
               `;
       
           x++;
@@ -29,10 +29,16 @@ function buildLinks(linkArray) {
 export default function Navigation(state){ return `
 
 <nav id="nav">
-<ul>
+<p>
     ${buildLinks(state.links)}
-</ul>
+</p>
 
 </nav>
+
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary">Home</button>
+  <button type="button" class="btn btn-secondary">Middle</button>
+  <button type="button" class="btn btn-secondary">Right</button>
+</div>
 `;
 }
