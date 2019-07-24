@@ -36,7 +36,88 @@ body {
         height: 330px;
     }
   
+
+/* Forms */
+
+form {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  background-image: url(https://image.freepik.com/free-photo/minimal-work-space-creative-flat-lay-photo-workspace-desk-with-sketchbook-wooden-pencil-copy-space-white-background-top-view-flat-lay-photography_1253-1067.jpg);
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:black;
+  padding: 20px;
+  width: 40%;
+  color: lightgray;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+select {
+  width: 28%;
+  padding: 16px 20px;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  background-color: lightgray;
+}
+
+input[type=submit] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
   
+
+
+
+/* footer */
+
 #linkedin{
   background-color: #1D87BE;
   font-size: 200%;
