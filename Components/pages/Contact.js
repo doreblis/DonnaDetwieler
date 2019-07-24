@@ -7,20 +7,53 @@ export default function Content(state){ return `
 </div>
 </main>
 
-<div>
-<input type="radio" name="aubject" value="personal" id="personal"/>
+<form>
+ 
+<br>
+
+<input type="radio" name="subject" value="personal" id="personal"/>
 <label for="personal">Personal Message</label>
 <input type="radio" name="subject" value="professional" id="professional"/>
 <label for="professional">Professional Message</label>
 </div>
 
-<div>
-<input type="checkbox" name="opt-in" value="opt-in" checked /> Add me!
-<input type="checkbox" name="opt-out" value="opt-out" disabled /> Disabled option
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Message</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Please write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+
 </div>
+
+<br>
 
 <div>
 <label for="marketing">How did you hear about me?</label>
+<br>
 <select name="marketing">
   <optgroup label="Online">
     <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
@@ -36,13 +69,21 @@ export default function Content(state){ return `
   <option value="other">Other</option>
 </select>
 
-</div>
+<br>
+<br>
 
 <div>
-<textarea name="user_message" placeholder="Comment please :)" rows="7" cols="10" maslength="500"></textarea>
+<input type="checkbox" name="opt-in" value="opt-in" checked /> I want to subscribe for latest updates!
+<br>
+<input type="checkbox" name="opt-out" value="opt-out" disabled /> I don't want to subscribe to anything.
 </div>
+
+<br>
+<br>
 <input type="submit" />
 </form>
+
+
 
 `;
 }
