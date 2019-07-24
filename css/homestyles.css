@@ -117,6 +117,9 @@ input[type=submit] {
 
 
 /* footer */
+.social {
+  color: black;
+}
 
 #linkedin{
   background-color: #1D87BE;
@@ -153,20 +156,33 @@ input[type=submit] {
 
 
   /* nav styles */
-  a:link, a:visited, a:hover, a:active {
-      background-color: bisque;
-      color: black;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 50%;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
 
 
-  .fa-grin-tears {
-      color: red;
-  }
  
 /* BLOG STYLES */
 
@@ -272,7 +288,7 @@ input[type=submit] {
   
   }
   button:hover{
-  box-shadow: 20px 20px 20px 20px rgba(255, 58, 58, 0.3);
+  box-shadow: 20px 20px 20px 20px rgba(65, 55, 55, 0.3);
   }
   
   .blog-post {

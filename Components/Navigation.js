@@ -1,13 +1,36 @@
 import { lowerCase } from 'lodash';
 
+function buildLinks(linkArray) { 
+  let link = "";
+  let links = "";
+  let x = 0;
+
+  linkArray.forEach(link => {
+      if (linkArray[x] !== "Home")
+      {
+          link = linkArray[x];
+        }
+    
+    
+        links += `
+                <li>
+                    <a href='/${lowerCase(link)}' data-navigo>
+                        ${linkArray[x]}
+                    </a>
+                </li>
+            `;
+    
+        x++;
+      });
+    
+      return links;
+    }
 
 export default function Navigation(state){ return `
-
-
-<div class="nav" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-secondary">Home</button>
-  <button type="button" class="btn btn-secondary">Contact</button>
-  <button type="button" class="btn btn-secondary">Portfolio</button>
-</div>
+<nav id="nav">
+<ul>
+  ${buildLinks(state.links)}
+</ul>
+</nav>
 `;
 }
