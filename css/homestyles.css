@@ -80,6 +80,9 @@ label {
   margin-top: 6px;
 }
 
+/* carousel */
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";

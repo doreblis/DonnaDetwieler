@@ -1,5 +1,5 @@
 export default {
-    title: 'My Two Personalities',
+    title: 'About Me, Myself and I',
     pageContent: 'Profile',
     links: ["Home", "Contact", "Extras"]
 };

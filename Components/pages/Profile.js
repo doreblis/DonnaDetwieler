@@ -1,33 +1,51 @@
-export default function Profile(state){ return `
+const img1 = require('../../img/1.jpg');
+const img2 = require('../../img/2.jpg');
+const img3 = require('../../img/3.jpg');
+const img4 = require('../../img/4.jpg');
+const img5 = require('../../img/5.jpg');
 
 
-<main>
 
-<div>
+export default function Profile(state){ 
+    $('.carousel').carousel()
 
-</div>
-</main>
-
-<div class="wrapper">
-<div class="box sidebar">
-<img id="mediator" src="https://pics.me.me/thumb_inar-mediator-personality-infp-a-t-so-i-did-the-16-16513817.png"/>
-
-<ul>
-    <li><a href="#top">Top</a></li>
-    <li><a href="#bottom">Bottom</a></li>
-</ul>
-
-</div>
-
-<div class="box content">
-    <h1>Mediator</h1>
-    <p>Mediator personalities are true idealists, always looking for the hint of good in even the worst of people and events, searching for ways to make things better. While they may be perceived as calm, reserved, or even shy, Mediators have an inner flame and passion that can truly shine. Comprising just 4% of the population, the risk of feeling misunderstood is unfortunately high for the Mediator personality type – but when they find like-minded people to spend their time with, the harmony they feel will be a fountain of joy and inspiration.
-    </p>
-<br>
-    <p>Being a part of the Diplomat Role group, Mediators are guided by their principles, rather than by logic (Analysts), excitement (Explorers), or practicality (Sentinels). When deciding how to move forward, they will look to honor, beauty, morality and virtue – Mediators are led by the purity of their intent, not rewards and punishments. People who share the Mediator personality type are proud of this quality, and rightly so, but not everyone understands the drive behind these feelings, and it can lead to isolation.
-    </p>
+    return `
 
 
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="${img1}" class="d-block w-100" alt="1">
+    </div>
+    <div class="carousel-item active">
+      <img src="${img2}" class="d-block w-100" alt="2">
+    </div>
+    <div class="carousel-item active">
+        <img src="${img3}" class="d-block w-100" alt="3">
+    </div>
+    <div class="carousel-item active">
+        <img src="${img4}" class="d-block w-100" alt="4">
+    </div>
+    <div class="carousel-item active">
+      <img src="${img5}" class="d-block w-100" alt="5">
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 `;
 }

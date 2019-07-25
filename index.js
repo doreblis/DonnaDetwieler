@@ -9,7 +9,6 @@ import Navigo from "navigo";
 import { capitalize } from 'lodash';
 
 
-
 const router = new Navigo(window.location.origin);
 const root = document.querySelector("#root");
 
@@ -34,7 +33,6 @@ function render(state) {
 
   router.updatePageLinks() ;
 }
-
 
 
 //retrieving data from API and inserting to your HTML thru vanilla js
