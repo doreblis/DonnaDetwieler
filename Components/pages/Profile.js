@@ -1,7 +1,8 @@
-export default function Portfolio(state){ return `
+export default function Profile(state){ return `
+
 
 <main>
-<p> ${state.title} </p>
+
 <div>
 
 </div>

@@ -1,11 +1,6 @@
 export default function Content(state){ return `
 
-<main>
-<p> ${state.title} </p>
-<div>
 
-</div>
-</main>
 
 <form>
  

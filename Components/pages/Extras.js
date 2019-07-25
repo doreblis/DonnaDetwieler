@@ -1,11 +1,6 @@
-export default function Blog(state){ return `
+export default function Extras(state){ return `
 
-<main>
-<p> ${state.title} </p>
-<div>
 
-</div>
-</main>
 
 <header>
 
