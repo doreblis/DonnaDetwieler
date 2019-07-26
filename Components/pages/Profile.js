@@ -7,7 +7,7 @@ const img5 = require('../../img/5.jpg');
 
 
 export default function Profile(state){ 
-    $('.carousel').carousel()
+    // $('.carousel').carousel()
 
     return `
 
