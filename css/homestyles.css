@@ -42,13 +42,15 @@ body {
 form {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   box-sizing: border-box;
-  background-image: url(https://image.freepik.com/free-photo/minimal-work-space-creative-flat-lay-photo-workspace-desk-with-sketchbook-wooden-pencil-copy-space-white-background-top-view-flat-lay-photography_1253-1067.jpg);
+  background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/02/white-wallpaper-11.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #0B3A66;
   border-radius: 4px;
   resize: vertical;
 }
@@ -56,34 +58,33 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  color:black;
 }
 
-.container {
+
+
+.form {
+  width: 80%;
   border-radius: 5px;
-  background-color:black;
+  background-color: lightblue;
   padding: 20px;
-  width: 40%;
-  color: lightgray;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  align-content: center;
 }
+
+
 
 .col-25 {
   float: left;
-  width: 25%;
-  margin-top: 6px;
+  width: 15%;
+  padding: 1px;
 }
 
 .col-75 {
-  float: left;
+  float: right;
   width: 70%;
   margin-top: 6px;
 }
 
-/* carousel */
-
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -99,11 +100,11 @@ label {
 }
 
 select {
-  width: 28%;
+  width: 30%;
   padding: 16px 20px;
   border: 1px solid darkblue;
   border-radius: 4px;
-  background-color: lightgray;
+  background-color: whitesmoke;
 }
 
 input[type=submit] {
@@ -210,7 +211,7 @@ input[type=submit] {
      font-family: Arial, Helvetica, sans-serif;
   }
   
-  .container  {
+  .blogcontainer  {
   max-width:1500px;
   margin: auto;
   }

@@ -16,7 +16,7 @@ export default function Extras(state){ return `
 <body>
 <div class="main">
     <h1>Game Reviews</h1>
-    <div class="container main-container">
+    <div class="blogcontainer main-container">
       <div class="blog-item blog-item1">
         <div class="blog-item-image">
         </div>
