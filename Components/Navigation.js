@@ -32,5 +32,13 @@ export default function Navigation(state){ return `
   ${buildLinks(state.links)}
 </ul>
 </nav>
+
+<div class="pupu">
+<ph2 class="greet">Hi, I'm</h2>
+<h1 class="name"> Donna
+  <br>
+   Detwieler </h1>
+</div>
+
 `;
 }

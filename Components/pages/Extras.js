@@ -4,11 +4,7 @@ export default function Extras(state){ return `
 
 <header>
 
-    <img id="BlogImg" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60" alt="blog image" width="1600" height="500" />
-        
     
-    
-        <h1>Welcome to my Blog</h1>
         <h3>“I don’t know where my ideas come from, but I know where they come to. They come to my desk, and if I’m not there, they go away again.” ~Philip Pullman</h3>
     
 </header>
@@ -59,22 +55,11 @@ export default function Extras(state){ return `
 
   <hr>
   
-  <section>
-  <!--Style 2-->
-<div class="bg two">
-    <div class="button">
-      <a href="https://github.com" target="_blank"><button>GitHub</button></a>
-      <a href="https://www.netlify.com" target="_blank"><button>Netlify</button></a>
-      <a href="https://www.google.com/" target="_blank"><button>Google</button></a>
-      <a href="https://fontawesome.com" target="_blank"><button>FontAwesome</button></a>
-      <a href="https://www.w3schools.com/" target="_blank"><button>W3Schools</button></a>
-      <a href="https://codepen.io/" target="_blank"><button>CodePen</button></a>
-    </div>
-  </div>
-</section>
+ 
 <br>
 <hr>
 <br>
+<h1> Which framework do I want to learn more? </h1>
 <div class="blog-post">
     <h1 class="blog-post-title">React.js</h1>
     <div class="blog-post-body">
