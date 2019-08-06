@@ -1,0 +1,402 @@
+/* INDEX STYLES */
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(180deg,#4ac1ff,#795bb0);
+  }
+
+  .greet {
+    margin-top: 0.1em;
+    margin-bottom: 0.25em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+
+.name  {
+  font-family: 'Permanent Marker', cursive;
+    margin-top: 0em;
+    padding-top: 0em;
+    font-size: 5em;
+  background: -webkit-linear-gradient(rgb(243, 153, 255), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    border-bottom: none ;
+
+  }
+
+.pupu {
+      padding: 10em 0;
+      position: relative;
+      text-align: center;
+      height: 330px;
+  }
+  
+
+/* Forms */
+
+form {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/02/white-wallpaper-11.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #0B3A66;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color:black;
+}
+
+
+
+.form {
+  width: 80%;
+  border-radius: 5px;
+  padding: 20px;
+  align-content: center;
+}
+
+.col-75 {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+select {
+  width: 30%;
+  padding: 16px 20px;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+
+input[type=submit] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  
+
+
+
+/* footer */
+.social {
+  color: black;
+}
+
+#linkedin{
+  background-color: #1D87BE;
+  font-size: 200%;
+}
+#linkedin:hover{
+  background-color: #136F9E;
+  font-size: 200%;
+}
+
+#google-plus{
+  background-color: #B30000;
+  font-size: 200%;
+}
+#google-plus:hover{
+  background-color: #990000;
+  font-size: 200%;
+}
+
+#github{
+  background-color: #0F4F8A;
+  font-size: 200%;
+}
+#github:hover{
+  background-color: #0B3A66;
+  font-size: 200%;
+}
+
+  #foot {
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+  }
+
+
+  /* nav styles */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+ 
+/* BLOG STYLES */
+
+  header{
+    text-align: center;
+  }
+  
+  
+  img {
+  max-width:100%;
+  height: auto;
+  }
+  
+  h1 {
+  font-weight: 200;  
+  text-align: center;
+  }
+  
+  p {
+      font-size: 17px;
+      line-height: 28px;  
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .blogcontainer  {
+  max-width:1500px;
+  margin: auto;
+  }
+  
+  .main-container {
+    display:grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    }
+  
+  .main {
+  padding-top: 40px;  
+  padding-bottom: 40px;
+  }
+    .blog-item {
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-radius:3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    }
+      .blog-item-image {
+      height: 220px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      border-bottom:3px;
+      overflow:hidden;
+      }
+      .blog-item-content {
+      padding: 15px;
+      text-align: center;
+      }
+        h2 {
+        margin-left: -15px;
+        margin-right: -15px;
+        color: rebeccapurple;
+        }
+  
+  
+  .blog_post_image_grid {
+  display:grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:5px;
+  }
+    img {
+    padding: 5px;
+    background-color: #eee;
+    border:1px solid #ddd;
+    }
+  
+
+  
+  .blog-post {
+    border: 1px solid black;
+    margin: 30px 50px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+
+  /* PROJECT STYLES */
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    position: relative;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  .wrapper {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 500px 500px 500px;
+          grid-template-areas:"sidebar content content";
+          color: #444;
+          justify-content: center;
+      }
+  
+  .box {
+    background-color: #444;
+    color: black;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 150%;
+  }
+  
+  .sidebar,
+  .content {
+    background-color: lightblue;
+  }
+  
+
+ /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*# sourceMappingURL=/homestyles.c96eef40.css.map */

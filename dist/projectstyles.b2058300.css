@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+  }
+
+  /* nav styles */
+  a:link, a:visited, a:hover, a:active {
+      background-color: lightskyblue;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 100%;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    position: relative;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  .wrapper {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 500px 500px 500px;
+          grid-template-areas:"sidebar content content";
+          color: #444;
+          justify-content: center;
+      }
+  
+  .box {
+    background-color: #444;
+    color: black;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 150%;
+  }
+  
+  .sidebar,
+  .content {
+    background-color: lightblue;
+  }
+  
+
+ 
+
+/*# sourceMappingURL=/projectstyles.b2058300.css.map */
