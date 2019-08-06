@@ -27,6 +27,8 @@ function buildLinks(linkArray) {
     }
 
 export default function Navigation(state){ return `
+
+
 <nav id="nav">
 <ul>
   ${buildLinks(state.links)}

@@ -14,17 +14,13 @@ export default function Content(state){ return `
 
 <div class="form">
   <div class="row">
-    <div class="col-25">
-      <label for="fname">FIRST NAME</label>
-    </div>
+
     <div class="col-75">
       <input type="text" id="fname" name="firstname" placeholder="Your first name">
     </div>
   </div>
   <div class="row">
-    <div class="col-25">
-      <label for="lname">LAST NAME</label>
-    </div>
+
     <div class="col-75">
       <input type="text" id="lname" name="lastname" placeholder="Your last name">
     </div>
@@ -33,9 +29,7 @@ export default function Content(state){ return `
   
   
   <div class="row">
-    <div class="col-25">
-      <label for="subject">MESSAGE</label>
-    </div>
+
     <div class="col-75">
       <textarea id="subject" name="subject" placeholder="Please write something" style="height:200px"></textarea>
     </div>

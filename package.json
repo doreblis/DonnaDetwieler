@@ -4,6 +4,7 @@
   "description": "This is what normal text looks like!",
   "main": "index.js",
   "scripts": {
+    "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,3 +30,6 @@
     "popper.js": "^1.15.0"
   }
 }
+
+//to show it to netlify//
+

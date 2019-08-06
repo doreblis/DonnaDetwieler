@@ -29,12 +29,12 @@ body {
 
   }
 
-  .pupu {
-        padding: 10em 0;
-        position: relative;
-        text-align: center;
-        height: 330px;
-    }
+.pupu {
+      padding: 10em 0;
+      position: relative;
+      text-align: center;
+      height: 330px;
+  }
   
 
 /* Forms */
@@ -66,22 +66,13 @@ label {
 .form {
   width: 80%;
   border-radius: 5px;
-  background-color: lightblue;
   padding: 20px;
   align-content: center;
 }
 
-
-
-.col-25 {
-  float: left;
-  width: 15%;
-  padding: 1px;
-}
-
 .col-75 {
   float: right;
-  width: 70%;
+  width: 50%;
   margin-top: 6px;
 }
 
@@ -161,30 +152,30 @@ input[type=submit] {
 
   /* nav styles */
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
 
  
