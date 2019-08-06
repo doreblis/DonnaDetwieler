@@ -1,11 +1,6 @@
 export default function Content(state){ return `
 
-<main>
-<p> ${state.title} </p>
-<div>
 
-</div>
-</main>
 
 <form>
  
@@ -17,39 +12,32 @@ export default function Content(state){ return `
 <label for="professional">Professional Message</label>
 </div>
 
-<div class="container">
-  <form action="/action_page.php">
+<div class="form">
   <div class="row">
-    <div class="col-25">
-      <label for="fname">First Name</label>
-    </div>
+
     <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name">
     </div>
   </div>
   <div class="row">
-    <div class="col-25">
-      <label for="lname">Last Name</label>
-    </div>
+
     <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name">
     </div>
 
   </div>
   
   
   <div class="row">
-    <div class="col-25">
-      <label for="subject">Message</label>
-    </div>
+
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Please write something.." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Please write something" style="height:200px"></textarea>
     </div>
   </div>
 
 </div>
 
-<br>
+
 
 <div>
 <label for="marketing">How did you hear about me?</label>

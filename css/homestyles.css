@@ -29,12 +29,12 @@ body {
 
   }
 
-  .pupu {
-        padding: 10em 0;
-        position: relative;
-        text-align: center;
-        height: 330px;
-    }
+.pupu {
+      padding: 10em 0;
+      position: relative;
+      text-align: center;
+      height: 330px;
+  }
   
 
 /* Forms */
@@ -42,13 +42,15 @@ body {
 form {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   box-sizing: border-box;
-  background-image: url(https://image.freepik.com/free-photo/minimal-work-space-creative-flat-lay-photo-workspace-desk-with-sketchbook-wooden-pencil-copy-space-white-background-top-view-flat-lay-photography_1253-1067.jpg);
+  background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/02/white-wallpaper-11.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  width: 90%;
+  padding: 14px;
+  border: 1px solid #0B3A66;
   border-radius: 4px;
   resize: vertical;
 }
@@ -56,31 +58,24 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  color:black;
 }
 
-.container {
+
+
+.form {
+  width: 80%;
   border-radius: 5px;
-  background-color:black;
   padding: 20px;
-  width: 40%;
-  color: lightgray;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
+  align-content: center;
 }
 
 .col-75 {
-  float: left;
-  width: 70%;
+  float: right;
+  width: 50%;
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -96,11 +91,11 @@ label {
 }
 
 select {
-  width: 28%;
+  width: 30%;
   padding: 16px 20px;
   border: 1px solid darkblue;
   border-radius: 4px;
-  background-color: lightgray;
+  background-color: whitesmoke;
 }
 
 input[type=submit] {
@@ -117,6 +112,9 @@ input[type=submit] {
 
 
 /* footer */
+.social {
+  color: black;
+}
 
 #linkedin{
   background-color: #1D87BE;
@@ -153,20 +151,33 @@ input[type=submit] {
 
 
   /* nav styles */
-  a:link, a:visited, a:hover, a:active {
-      background-color: bisque;
-      color: black;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 50%;
-  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
 
-  .fa-grin-tears {
-      color: red;
-  }
  
 /* BLOG STYLES */
 
@@ -191,7 +202,7 @@ input[type=submit] {
      font-family: Arial, Helvetica, sans-serif;
   }
   
-  .container  {
+  .blogcontainer  {
   max-width:1500px;
   margin: auto;
   }
@@ -243,37 +254,7 @@ input[type=submit] {
     border:1px solid #ddd;
     }
   
-    /*Button Styling*/
-    
-  .bg{
-    background-color: bisque;
-    text-align: center;
-    }
-  
-  .container-button{
-  display: inline-block;
-    }
 
-
-  button{
-  background-color: #22232c;
-  color: #ffffff;
-  height: 50px;
-  width: 200px;
-  line-height: 50px;
-  position: relative;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
-  letter-spacing: 2px;
-  border: none;
-  border-radius: 3px;
-  margin: 10px;
-  font-size: 180%;
-  
-  }
-  button:hover{
-  box-shadow: 20px 20px 20px 20px rgba(255, 58, 58, 0.3);
-  }
   
   .blog-post {
     border: 1px solid black;
@@ -325,4 +306,95 @@ input[type=submit] {
   }
   
 
- 
+ /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

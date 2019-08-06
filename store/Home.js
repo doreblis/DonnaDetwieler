@@ -1,5 +1,5 @@
 export default {
-    title: 'home store title',
+    title: 'Hello America. Hello World.',
     pageContent: 'Home',
-    links: ["Portfolio", "Contact", "Blog"]
+    links: ["Profile", "Contact", "Extras"]
 };
